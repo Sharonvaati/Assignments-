@@ -1,0 +1,28 @@
+//program to calculate simple interest 
+/*
+name: Sharon Vaati Musyoki 
+Reg no:D33-2408-2023
+*/
+#include <stdio.h>
+
+int main() {
+    float principal, time, rate, simpleInterest;
+    
+    // Input Principal, Time, and Rate
+    printf("Enter Principal amount: ");
+    scanf("%f", &principal);
+    
+    printf("Enter Time (in years): ");
+    scanf("%f", &time);
+    
+    printf("Enter Rate of Interest: ");
+    scanf("%f", &rate);
+    
+    // Calculate Simple Interest
+    simpleInterest = (principal * time * rate) / 100;
+    
+    // Output the result
+    printf("Simple Interest = %.2f\n", simpleInterest);
+    
+    return 0;
+}
