@@ -1,0 +1,31 @@
+/*
+do -while loops
+name: Sharon Vaati Musyoki 
+Reg no: D33-2408-2023
+Date:10/3/2025
+*/
+#include <stdio.h>
+
+int main() {
+    int i =1;
+    int sum= 0;
+    int cube;
+    
+    do{
+    cube =i*i*i;
+    printf("Number is: %d and cube of the %d is: %d\n", i, i, i * i * i);
+    i++;
+    sum += cube;
+    }
+ while(i<=100); {
+    printf("Number is: %d and cube of the %d is: %d\n", i, i, i * i * i);
+    i++;
+    }
+    
+    printf("The sum of the cubes of the first 100 %d numbers is: %d\n", sum);
+    
+
+    return 0;
+}
+
+    
